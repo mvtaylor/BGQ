@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BGQ Wrong Data Temp Fix</title>
+        <style>
+            div#subcontent > button, textarea, h1 {
+                display: block;
+            }
+            div#topdiv2 {
+                padding-top: 2px;
+            }
+            #authkeyTB {
+                width: 35em;
+            }
+            div#querycontent > input {
+                display: block;
+            }
+        </style>
+        <link rel="stylesheet" href="dark.css">
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <input id="authkeyTB" placeholder="dxfeed api key" type="text">
+        <div id="topdiv">
+            <button id="connectbutton">Connect with token entered</button>
+            <button id="disconnectbutton">Disconnect from feed</button>
+        </div>
+        <div id="topdiv2">
+            <button id="loadfromURLbutton">Load from URL params</button>
+        </div>
+        <div id="subcontent">
+            <h1>Enter options on lines: [option code], [quantity] (negative if short)</h1>
+            <h2 id="connectionstatush2" style="color: #f22424">Connection closed</h2>
+            <h2 id="feedstatush2" style="color: #f22424">Feed closed</h2>
+            <button id="setdefbutton">Put in default option</button>
+            <textarea id="opsTBOX" rows="4" cols="50" style="height: 25em;"></textarea>
+            <button id="getdatabutton">Start getting data</button>
+            <button id="stopbutton">Stop receive</button>
+        </div>
+        <div id="greeksdiv">
+            <h3 id="deltah3">Delta: N/A</h3>
+            <h3 id="vegah3">Vega: N/A</h3>
+            <h3 id="thetah3">Theta: N/A</h3>
+            <h3 id="gammah3">Gamma: N/A</h3>
+            <h3 id="rhoh3">Rho: N/A</h3>
+        </div>
+    </body>
+</html>

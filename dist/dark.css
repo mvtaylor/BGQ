@@ -1,0 +1,47 @@
+html {
+    background-color: #222425 !important;
+}
+
+html {
+    color-scheme: dark !important;
+}
+
+html,
+body {
+    background-color: #222425;
+}
+
+html,
+body {
+    border-color: #746d61;
+    color: #dedcd9;
+}
+
+a {
+    color: #3b8ff2;
+}
+
+table {
+    border-color: #585f61;
+}
+
+::placeholder {
+    color: #ada79e;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #464a0d !important;
+    color: #dedcd9 !important;
+}
+
+::selection {
+    background-color: #0d52a6 !important;
+    color: #dedcd9 !important;
+}
+
+::-moz-selection {
+    background-color: #0d52a6 !important;
+    color: #dedcd9 !important;
+}
